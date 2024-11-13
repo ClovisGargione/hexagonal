@@ -1,0 +1,12 @@
+gargione:
+  address:
+    url: http://localhost:8082/addresses
+spring:
+  application:
+    name: hexagonal
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/hexagonal
+server:
+  servlet:
+    context-path: /api/v1
